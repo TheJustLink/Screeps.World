@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Link")]
 [assembly: AssemblyProduct("Screeps.World")]
-[assembly: AssemblyCopyright("Copyright © Link  2021")]
+[assembly: AssemblyCopyright("Copyright © Link 2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

@@ -1,17 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package >
   <metadata>
-    <id>$id$</id>
-    <version>$version$</version>
-    <title>$title$</title>
-    <authors>$author$</authors>
+    <id>Screeps.World</id>
+    <version>0.0.1</version>
+    <title>Screeps.World</title>
+    <authors>Link</authors>
+	<owners>Link</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <license type="expression">MIT</license>
     <projectUrl>https://github.com/LinkerOK/Screeps.World</projectUrl>
-    <icon>Icon.png</icon>
-    <description>$description$</description>
+    <iconUrl>https://github.com/LinkerOK/Screeps.World/raw/main/Icon.png</iconUrl>
+    <licenseUrl>https://github.com/LinkerOK/Screeps.World/raw/main/LICENSE</licenseUrl>
+    <description>Screeps World API implementation on C#</description>
     <releaseNotes>First version</releaseNotes>
-    <copyright>$copyright$</copyright>
-    <tags>Screeps World API Wrapper JS CSharp Game Link DevLink</tags>
+    <copyright>Copyright © Link 2021</copyright>
+    <tags>Screeps World API Wrapper Bridge Net JS CSharp Game Link DevLink</tags>
+    
+    <dependencies>
+      <group targetFramework=".NETFramework4.8">
+        <dependency id="Bridge.Core" version="17.10.1"/>
+        <dependency id="Bridge.Min" version="17.10.1"/>
+      </group>
+    </dependencies>
   </metadata>
+  
+  <files>
+    <file src="bridge.json"/>
+    <file src="bin/Release/Screeps.World.*" target="lib/net48"/>
+  </files>
 </package>
